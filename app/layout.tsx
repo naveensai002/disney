@@ -23,7 +23,7 @@ export default function RootLayout({
         disableTransitionOnChange
       >
         <body className="bg-white dark:bg-[#1A1C29]">
-          <Header />
+          {/* <Header /> */}
           {children}
         </body>
       </ThemeProvider>
